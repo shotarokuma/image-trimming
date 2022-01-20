@@ -1,2 +1,2 @@
-# learn imgge trimming
+# learn image trimming
 
