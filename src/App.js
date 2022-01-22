@@ -81,7 +81,7 @@ const App = () => {
         画像挿入
         <input type="file" accept="image/*" onChange={onSelectFile} hidden />
       </Button>
-      <img src={upImg} alt="アップロードされた画像" width={300} height={300}/>
+      <img src={upImg} alt="アップロードされた画像" width={300}/>
       <Drawer anchor={"top"} open={open} onClose={toggleDrawer(false)}>
         <div>
           <ReactCrop
